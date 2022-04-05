@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    background-color: var(--BlUEBERRY);
+    justify-content: center;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 10px 0px;
+
+}
+
+.navbar-list li {
+    padding: 10px 5px;
+    margin: 2px 0px;
+    width: 100%;
+    text-align: center;
+    color:var(--WHITE);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    background-color: var(--APPROX_RICH_BLUE);
+    border-radius: 10px;
+
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: var(--NORMAL_SIZE_MOBILE);
+    letter-spacing: inherit;
+    text-transform: inherit;
+}

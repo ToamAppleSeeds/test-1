@@ -1,0 +1,67 @@
+.login-main-header-container{
+}
+
+.login-main-header-container h1 {
+    text-align: center;
+    margin: auto;
+    padding:100px;
+    font-size:var(--HEADING_MEDIUM_SIZE_DESKTOP);
+    letter-spacing: 5px;
+    text-decoration: underline 2px;
+    color:var(--BlUEBERRY)
+}
+
+.user-inputs-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+
+}
+
+.user-inputs-container input{
+    width: 300px;
+    padding: 10px;
+    font-size: var(--NORMAL_SIZE_DESKTOP);
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.user-inputs-container input:focus {
+    outline: none;
+    border: 2px solid var(--BlUEBERRY);
+    
+}
+
+
+.user-submit-field-wrapper{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+}
+
+.user-submit-field-container{
+    width: 300px;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: flex-start;
+}
+
+.user-submit{
+    border: 1px solid var(--APPROX_RICH_BLUE);
+    background-color: var(--BlUEBERRY);
+    font-size: var(--NORMAL_SIZE_DESKTOP);
+    color: var(--WHITE);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-submit:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+
+}
+

@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    background-color: var(--BlUEBERRY);
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar-list li {
+    padding: 20px 30px;
+    color:var(--WHITE);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: var(--NORMAL_SIZE_DESKTOP);
+    letter-spacing: inherit;
+    text-transform: inherit;
+}
+
+.navbar-list li:hover {
+    background-color: var(--APPROX_RICH_BLUE);
+    border-radius: 10px;
+    transition: 0.5s;
+
+}

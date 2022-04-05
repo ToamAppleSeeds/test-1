@@ -1,0 +1,55 @@
+.home-page-main-header-container h1{
+    text-align: center;
+    margin: auto;
+    padding:100px;
+    font-size: var(--HEADING_MEDIUM_SIZE_DESKTOP);
+    letter-spacing: 5px;
+    text-decoration: underline 2px;
+    color:var(--BlUEBERRY)
+}
+
+#section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.home-page-section-1-article{
+    width: 80%;
+    text-align: start;
+    line-height: 40px;
+}
+
+.home-page-section-1-article address{
+    font-size: var(--LARGE_SIZE_DESKTOP);
+    text-decoration: underline;
+}
+
+.home-page-section-1-article p {
+    padding: 40px 20px;
+    background-color: var(--LIGHT_BLUEBERRY);
+    border-radius: 10px;
+    color: var(--APPROX_CHARCOAL);
+    font-size: var(--LARGE_SIZE_DESKTOP);
+    
+}
+
+#section-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.home-page-portfolio{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.images{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
